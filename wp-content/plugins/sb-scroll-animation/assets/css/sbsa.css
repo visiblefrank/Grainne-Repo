@@ -1,0 +1,3 @@
+/* Animation style */
+/* version 1.0 */
+.woocommerce ul.products li.product .onsale, .woocommerce-page ul.products li.product .onsale { z-index:1; }

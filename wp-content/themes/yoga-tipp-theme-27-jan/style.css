@@ -1,0 +1,812 @@
+/*
+ Theme Name:   Yoga-Tipp-Theme
+ Theme URI:    http://visiblesandox.com/reverie-child/
+ Description:  Reverie Child Theme
+ Author:       Frank Keane
+ Author URI:   www.visible.ie
+ Template:     reverie-master
+ Version:      1.0.0
+*/
+
+
+/* FOUNDATION/REVERIE OVERWRITE	
+   ===================================================================================================
+*/
+
+
+
+p, h1, h2, h3, h4, h5{
+	color: #fff;
+}
+
+h2, h3, h4, h5{
+	font-family: AvenirLTStd-Light, 'open sans', sans-serif;
+}
+
+a{
+	color: #ccc;
+	
+}
+
+p, a{
+	font-family: AvenirLTStd-Medium, 'open sans', sans-serif;
+}
+
+.white-glass{
+	
+	background: rgba(255,255,255,0.7);
+	color: #000;
+}
+
+.dark-bg{
+	background: #000;
+}
+
+.dark-glass{
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+}
+
+.orange-glass{
+	background: rgba(244, 158, 0, 0.7);
+}
+
+.flower-orange-glass{
+	background: rgba(200, 81, 0, 0.5);
+}
+
+.flower-orange{
+	background: #C85100;
+}
+
+.flower-orange-page{
+	background: rgba(200, 81, 0, 0.8);
+}
+
+
+
+.cyan-glass{
+	background: rgba(0, 206, 240, 0.7);
+}
+
+.green-glass{
+	background: rgba(0, 197, 181, 0.7);
+}
+
+.blue-glass{
+	background: rgba(0, 150, 201, 0.7);
+}
+
+.red-glass{
+	background: rgba(254, 81, 109,0.7);
+}
+
+.pink-glass{
+	background: rgba(245, 62, 103, 0.7);
+}
+
+.purple-glass{
+	background: rgba(173, 131, 189, 0.7);
+}
+
+
+.lt-green-glass{
+	background: rgba(155, 176, 0, 0.5);
+}
+
+
+/* ===================================================== 
+	COMP COLOURS 
+*/
+
+.comp-yellow-glass{
+	background: rgba(225, 253, 25, 0.90);
+}
+
+.comp-purple-glass{
+	background: rgba(103, 0, 176, 0.90);
+}
+
+.comp-yellow{
+	background: #e1fd19;
+
+}
+
+.comp-purple{
+	background: #6700b0;
+}
+
+
+
+/* ===================================================== 
+	TRI COLOURS 
+*/
+
+.tri-blue{
+	background: rgba(19, 102, 141, 0.5);
+}
+
+.tri-red{
+	background: rgba(253, 29, 13, 0.5);
+}
+.tri-red-solid{
+	background: #FD1D0D;
+}
+
+.tri-drk-red{
+	background: rgba(125, 20, 12, 0.5);
+}
+
+.tri-drk-green{
+	background: rgba(89, 100, 10, 0.5);
+}
+
+.tri-drk-red-solid{
+	background: #7D140C;
+}
+
+
+
+
+/*
+.orange-bg{
+	background: #edb035;
+}
+
+.pink-bg{
+	background: #ff79b0;
+}
+
+.cyan-bg{
+	background: #00cef0;
+}
+
+.green-bg{
+	background: #00be73;
+}
+
+.blue-bg{
+	background: #0096C9;
+}
+
+.red-bg{
+	background: #fe516d;
+}
+
+.purple-bg{
+	background: #ad83bd;
+}
+*/
+
+.no-pad{
+	padding: 0;
+}
+
+.clearfix{
+	overflow: hidden;
+}
+
+.alignleft{
+	float: left;
+}
+
+.section{
+	margin-top: 4rem;
+}
+
+img.border{
+	border: 5px solid rgba(0,0,0,0.2);
+}
+
+li{
+	list-style: none;
+}
+
+/* HOMEPAGE	
+   ===================================================================================================
+*/
+
+#homepage{
+	color: #fff;
+}
+
+#logo{
+	overflow: auto;
+}
+
+#logo h1{
+	font-family: 'Days One', AvenirLTStd-Light, sans-serif;
+}
+
+#yantra, #title{
+	float: left;
+/* 	background: rgba(244, 158, 0, 0.5); */
+	height: 176px;
+	padding: .5rem 1rem;
+}
+
+#yantra{
+	margin-left: 1px;
+	width: 190px;
+}
+
+#title{
+	width: 285px;
+}
+
+
+#home{
+	
+/* 	background:url('http://www.visiblesandbox.com/grainne/wp-content/uploads/2015/12/main-bg-5-flip.jpg') no-repeat center center fixed; */
+/* 	background:url('http://www.visiblesandbox.com/grainne/wp-content/uploads/2015/12/main-bg-6.jpg') no-repeat center center fixed; */
+	background:url('http://www.visiblesandbox.com/grainne/wp-content/uploads/2015/12/main-bg-612.jpg') no-repeat center center fixed;
+	
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1.home-title{
+	font-size: 2rem;
+	color: #fff;
+}
+
+#tag{
+	text-align: right;
+	float: right;
+}
+
+#tag h3{
+	font-size: 1.2rem;
+	line-height: 5rem;
+}
+
+.contact-head, #tag h3{
+	padding: .5em;
+    text-align: right;
+    line-height: 1.5em;
+}
+
+.contact-head{
+	padding-top: .5rem;
+}
+
+.contact-head p{
+	margin-bottom: .5rem;
+}
+
+.contact-head span{
+	font-family: AvenirLTStd-Heavy, open-sans, sans-serif;
+    padding: .3rem;
+    border: 1px solid rgba(255,255,255,0.1);
+    display: inline-block;
+    line-height: .75em;
+    margin-right: .5rem;
+    padding-top: .5rem;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+
+/* =========== hero =========== */
+
+#hero h1{
+	font: 3rem AvenirLTStd-Heavy, 'Days One', sans-serif;
+	color: #fff;
+	padding: .5em;
+	margin: 0;
+}
+
+#hero a{
+	color: #fff;
+}
+
+#hero a:hover{
+	text-shadow: 0px 0px 2px #fff;
+}
+
+.front-info{
+	overflow: auto;
+}
+
+#latest-post{
+	padding: 1rem;
+}
+
+#latest-post p{
+	position: relative;
+	display: inline-block;
+	font-size: .75rem;
+    padding: .3rem;
+    
+    line-height: 1.5em;
+    
+    margin: 0 .5rem 0 2.5rem;
+}
+
+
+#latest-post p::after{
+	content: '\21db';
+    position: absolute;
+    right: .75rem;
+    bottom: .5rem;
+	
+}
+
+#latest-post li a{
+	border: 1px solid rgba(255,255,255,0.1);
+	padding-top: .5rem;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    display: block;
+    padding: .5em;
+}
+
+#bookings{
+	padding: 1rem;
+}
+
+#bookings h2{
+	font-size: 1.3rem;
+}
+
+.fa.fa-calendar{
+	font-size: 1.6rem;
+}
+
+.fa.fa-newspaper-o{
+	font-size: 1.6rem;
+}
+
+#latest-post{
+	box-shadow: 0px 1px 0px rgba(0,0,0,0.2)
+}
+
+.front-info{
+	box-shadow: -1px 0px 0px rgba(0,0,0,0.2);
+}
+
+.front-info h3{
+	font-size: 1.2rem;
+    font-family: AvenirLTStd-Medium, 'open sans', sans-serif;
+    display: inline-block;
+    margin: 1rem 0 1rem .5rem;
+}
+
+#latest-post ul{
+	margin-left: 0;
+}
+
+.news-summary-item{
+	padding-top: 2px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	clear: both;
+}
+
+.news-summary-item h6{
+	font-size: .8rem;
+}
+
+/* =========== services =========== */
+
+
+#services{
+/* 	margin-top: 6rem; */
+	margin-bottom: 12rem;
+}
+
+/*
+#welcome.purple-glass{
+	background: linear-gradient(
+	rgba(173, 131, 189, 0.7), rgba(173, 131, 189, 0.7)), url('http://visiblesandbox.com/grainne/wp-content/uploads/2015/11/bg-bw.jpg');
+}
+*/
+
+#services ul{
+	margin: 0;
+}
+#services .bucket{
+/* 	text-align: center; */
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+}
+
+#intro .welcome-txt .white-bg{
+	width: 100%;
+}
+
+
+
+.bucket h2{
+	color: #fff;
+	font-size: 1.3rem;
+	padding-left: 1rem;
+	font-family: AvenirLTStd-Heavy, helvetica, arial, sans-serif;
+}
+
+.bucket-bg{
+	padding: 1rem;
+	display: block;
+	
+}
+
+.bucket img{
+	float: right;
+	margin: 4rem 0 2rem 1rem;
+}
+
+.bucket p{
+	margin-top: 2rem;
+}
+
+.bucket-bg a, .bucket-bg a:active{
+	color: #fff;
+}
+.bucket-bg a:hover, .bucket-bg a:active {
+	color: #ddd;
+}
+
+
+/* =========== welcome =========== */
+
+#welcome p{	
+	font-size: 1.6rem;
+}
+
+/*
+.purple-glass.section{
+	box-shadow: 0px 2px 0px #0096C9, 0px 4px 0px #ff79b0, 0px -2px 0px #ff79b0, 0px -4px 0px #0096C9, 0px -6px 0px #edb035  ;
+}
+*/
+
+#welcome{
+	padding: 5rem 0 6rem;
+	background: url('http://visiblesandbox.com/grainne/wp-content/uploads/2015/12/sri-yantra-poattern.png'), rgba(19, 102, 141, 0.9);
+}
+
+#welcome-txt{
+	position: relative;
+	padding: 5rem 5rem 5rem 24rem;
+	z-index: 1;
+	border: 5px solid rgba(0,0,0,0.3);
+	background: rgba(255,255,255,0.9);
+	border-radius: 2rem;
+	
+}
+
+#welcome-txt p{
+	color: #44444a;
+}
+
+#welcome-txt:after {
+  content: "";
+  background: url('http://visiblesandbox.com/grainne/wp-content/uploads/2015/12/gra-crop.jpg');
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  border-radius: 1.8rem; 
+}
+
+/*
+.welcome-txt h3{
+	background-color: rgba(0,0,0,0.5);
+    font-size: 2.8rem;
+    padding: 1rem;
+    min-height: 180px;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+*/
+
+#welcome.comp-purple-glass h2{
+	font-family: 'Sacramento', cursive;
+	font-size: 4rem;
+	text-shadow: 2px 2px 0px #444;
+    padding-left: 1rem;
+/*     color: #e1fd19; */
+}
+
+
+
+/* =========== SCHEDULE =========== */
+
+#schedule *{
+	color: #222324;
+}
+
+
+/* =========== trust =========== */
+
+/*
+#quote{
+	margin-top: 4rem;
+	padding-top: 3rem;
+	padding: 6rem 0;
+}
+*/
+
+.trust-txt{
+	text-align: center;
+	margin-bottom: 8rem;
+	position: relative
+}
+
+q{
+	font-size: 1.6rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.6em;
+	letter-spacing: 1px;/*
+
+	position: relative;
+*/
+}
+
+q:before,
+q:after {
+ content: none;
+}
+
+.trust-txt:before, .trust-txt:after{
+	content: '"';
+    font-size: 3rem;
+    font-family: 'passion one', serif;
+    position: absolute;
+    color: #FD1D0D;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    line-height: .6em;
+    
+}
+
+.trust-txt:before{
+    transform: rotate(180deg);
+    top: 0;
+}
+
+.trust-txt:after{
+    right: 0;
+    top: 0;
+}
+
+cite{
+	color: #f53e67;
+	color: #FD1D0D;
+	display: block;
+	margin-top: 1em;
+	text-align: center;
+	font-family: 'Sacramento', sans-serif;
+	font-size: 2rem;
+}
+
+/* =========== schedule =========== */
+
+.schedule-wrap{
+	margin: 4rem 0;
+}
+
+.schedule.section{
+	color: #ccc;
+}
+
+
+
+
+/* PAGES	
+   ===================================================================================================
+*/
+.page-wrap{
+
+	color:#fff;
+	margin-top: 4rem;
+	}
+	
+.page-wrap [id*= "post-"]{
+	padding: 1rem;
+}
+
+#page{
+	background: url('http://visiblesandbox.com/grainne/wp-content/uploads/2015/12/main-bg-6-bw.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+	
+}
+
+/* YOGA	
+   ===================================================================================================
+*/
+
+#post-32{
+	background: rgba(125, 20, 12, .8);
+}
+
+/* PREGNANCY	
+   ===================================================================================================
+*/
+
+/* MASSAGE	
+   ===================================================================================================
+*/
+
+/* MEDITATION	
+   ===================================================================================================
+*/
+
+/* FOOTER	
+   ===================================================================================================
+*/
+footer.main-footer{
+	border-top: 2px solid rgba(253, 29, 13, 0.5);
+}
+
+
+
+/* FONTS	
+   ===================================================================================================
+*/
+@font-face {
+  font-family: 'AvenirLTStd-Medium';
+  src: url('fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),  url('fonts/AvenirLTStd-Medium.otf')  format('opentype'),
+	     url('fonts/AvenirLTStd-Medium.woff') format('woff'), url('fonts/AvenirLTStd-Medium.ttf')  format('truetype'), url('fonts/AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Light';
+  src: url('fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),  url('fonts/AvenirLTStd-Light.otf')  format('opentype'),
+	     url('fonts/AvenirLTStd-Light.woff') format('woff'), url('fonts/AvenirLTStd-Light.ttf')  format('truetype'), url('fonts/AvenirLTStd-Light.svg#AvenirLTStd-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Heavy';
+  src: url('fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),  url('fonts/AvenirLTStd-Heavy.otf')  format('opentype'),
+	     url('fonts/AvenirLTStd-Heavy.woff') format('woff'), url('fonts/AvenirLTStd-Heavy.ttf')  format('truetype'), url('fonts/AvenirLTStd-Heavy.svg#AvenirLTStd-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+/* QUERIES	
+   ===================================================================================================
+*/
+
+
+@media only screen and (max-width: 48rem){ /*760px */
+
+#hero{
+	margin-top: 0;
+}
+
+#yantra, #title{
+	float: left;
+/* 	height: 145px; */
+}
+
+#yantra{
+	margin-left: 0;
+	width: 33.3333333%;
+}
+
+#title{
+	width: 66.6666667%;
+}
+
+h1.home-title{
+	font-size: 1.8rem
+}
+	
+#intro #title-nav-wrap{
+	margin-left: 0;
+}
+
+#intro .white-bg.alignleft{
+	display: none;
+}
+
+#intro .white-bg{
+	width: 100%;
+	text-align: center;
+}
+
+a.yoga-link{
+	height: auto;
+	text-align: center;
+	line-height: 4em;
+}
+
+a.yoga-link.pregnancy{
+	line-height: 1.6em;
+	min-height: 67px;
+}
+
+.welcome-txt h3{    
+	font-size: 2rem;
+    min-height: auto;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+#intro-nav li{
+	padding: 0;
+	height: auto;
+}
+
+q{
+	font-size: 1.2rem;
+}
+
+ul{
+	margin-left: 0;
+}	
+
+#welcome p{
+	font-size: 1.2rem;
+	}
+	
+#welcome-txt{
+	padding:2rem;
+}
+
+.contact-head p{
+	text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 25.875rem){ /* 414px */
+
+	#yantra, #title{
+	height: 165px;
+	}
+	
+	#yantra{
+		width: 45%;
+		margin-left: 0;
+	}
+	
+	#title{
+		width: 55%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

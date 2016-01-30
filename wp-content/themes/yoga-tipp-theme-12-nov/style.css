@@ -1,0 +1,458 @@
+/*
+ Theme Name:   Yoga-Tipp-Theme
+ Theme URI:    http://visiblesandox.com/reverie-child/
+ Description:  Reverie Child Theme
+ Author:       Frank Keane
+ Author URI:   www.visible.ie
+ Template:     reverie-master
+ Version:      1.0.0
+*/
+
+
+/* FOUNDATION/REVERIE OVERWRITE	
+   ===================================================================================================
+*/
+
+p, h2, h3, h4, h5{
+	color: #fff;
+}
+
+h2, h3, h4, h5{
+	font-family: AvenirLTStd-Light, 'open sans', sans-serif;
+}
+
+a{
+	color: #ccc;
+	
+}
+
+p, a{
+	font-family: AvenirLTStd-Medium, 'open sans', sans-serif;
+}
+
+.white-glass{
+	
+	background: rgba(255,255,255,0.7);
+	color: #000;
+}
+
+.dark-bg{
+	background: #000;
+}
+
+.dark-glass{
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+}
+
+.orange-glass{
+	background: rgba(244, 158, 0, 0.7);
+}
+
+
+
+.cyan-glass{
+	background: rgba(0, 206, 240, 0.7);
+}
+
+.green-glass{
+	background: rgba(0, 197, 181, 0.7);
+}
+
+.blue-glass{
+	background: rgba(0, 150, 201, 0.7);
+}
+
+.red-glass{
+	background: rgba(254, 81, 109,0.7);
+}
+
+.pink-glass{
+	background: rgba(245, 62, 103, 0.7);
+}
+
+.purple-glass{
+	background: rgba(173, 131, 189, 0.7);
+}
+
+
+.orange-bg{
+	background: #edb035;
+}
+
+.pink-bg{
+	background: #ff79b0;
+}
+
+.cyan-bg{
+	background: #00cef0;
+}
+
+.green-bg{
+	background: #00be73;
+}
+
+.blue-bg{
+	background: #0096C9;
+}
+
+.red-bg{
+	background: #fe516d;
+}
+
+.purple-bg{
+	background: #ad83bd;
+}
+
+.no-pad{
+	padding: 0;
+}
+
+.clearfix{
+	overflow: hidden;
+}
+
+.alignleft{
+	float: left;
+}
+
+.section{
+	margin-top: 4rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+img.border{
+	border: 5px solid rgba(0,0,0,0.2);
+}
+
+/* HOMEPAGE	
+   ===================================================================================================
+*/
+
+#logo{
+	overflow: auto;
+}
+
+#logo h1{
+	font-family: 'Days One', AvenirLTStd-Light, sans-serif;
+}
+
+#yantra, #title{
+	float: left;
+	background: rgba(244, 158, 0, 0.5);
+	height: 176px;
+	padding: .5rem;
+}
+
+#yantra{
+	margin-left: 1px;
+}
+
+#title{
+	width: 259px;
+}
+
+
+#home{
+	background:url('http://www.visiblesandbox.com/grainne/wp-content/uploads/2015/11/main-bg.jpg') no-repeat center center fixed;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1.home-title{
+	font-size: 2rem;
+	color: #fff;
+}
+
+#tag{
+	text-align: right;
+	float: right;
+}
+
+#tag h3{
+	font-size: 1.2rem;
+	line-height: 5rem;
+}
+
+.contact-head, #tag h3{
+	height: 88px;
+	padding: 0 .5rem;
+	margin: 0;
+}
+
+.contact-head{
+	padding-top: .5rem;
+}
+
+#tag a{
+	color: #ccc;
+	line-height: 1.6em;
+}
+
+#tag a:hover{
+	color: #fff;
+}
+
+/* =========== services =========== */
+
+
+#services{
+	margin-top: 6rem;
+	margin-bottom: 12rem;
+}
+
+/*
+#welcome.purple-glass{
+	background: linear-gradient(
+	rgba(173, 131, 189, 0.7), rgba(173, 131, 189, 0.7)), url('http://visiblesandbox.com/grainne/wp-content/uploads/2015/11/bg-bw.jpg');
+}
+*/
+
+#services ul{
+	margin: 0;
+}
+#services .bucket{
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0
+}
+
+#intro .welcome-txt .white-bg{
+	width: 100%;
+}
+
+.welcome-txt{
+	margin-top: 180px;
+}
+
+.welcome-txt h3{
+	background-color: rgba(0,0,0,0.5);
+    font-size: 2.8rem;
+    padding: 1rem;
+    min-height: 180px;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.yoga-link{
+	
+}
+
+a.yoga-link {
+	display: block;
+	text-align: center;
+/* 	padding: 5px; */
+	-webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    font-size: .9rem;
+}
+
+.bucket h2{
+	margin-top: 0;
+    background-color: rgba(255,255,255,0.7);
+	color: #555;
+	font-size: 1.6rem;
+	margin-bottom: 0;
+}
+
+.bucket-bg{
+	padding: 1rem 0;
+}
+
+
+/* =========== welcome =========== */
+
+#welcome p{	
+	font-size: 1.6rem;
+}
+
+.purple-glass.section{
+	box-shadow: 0px 2px 0px #0096C9, 0px 4px 0px #ff79b0, 0px -2px 0px #ff79b0, 0px -4px 0px #0096C9, 0px -6px 0px #edb035  ;
+}
+
+/* =========== trust =========== */
+
+#trust{
+	margin-top: 4rem;
+	padding-top: 3rem;
+	border-top: 1px solid #f53e67;
+	border-bottom: 1px solid #f53e67;
+	background-color: #000000;
+	background-color: #edb035;
+	padding: 6rem 0;
+}
+
+.trust-txt{
+	width: 66.6666667%;
+	margin-left: 16.66667%;
+}
+
+q{
+	font-size: 2rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.6em;
+	letter-spacing: 1px;
+	position: relative;
+}
+
+q:before,
+q:after {
+ content: "";
+}
+
+q:before{
+	content: '"';
+	font-size: 12rem;
+	font-family: 'passion one', serif;
+	position: absolute;
+	color: #f53e67;
+	top: -1rem;
+	left: -2rem;
+	transform: rotate(-35deg);
+}
+
+cite{
+	color: #f53e67;
+	display: block;
+	margin-top: 1em;
+	text-align: right;
+	font-family: 'Sacramento' AvenirLTStd-Medium, sans-serif;
+	font-size: 2rem;
+}
+
+/* =========== schedule =========== */
+
+.schedule-wrap{
+	margin: 4rem 0;
+}
+
+.schedule.section{
+	color: #ccc;
+}
+
+
+
+/* FONTS	
+   ===================================================================================================
+*/
+@font-face {
+  font-family: 'AvenirLTStd-Medium';
+  src: url('fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),  url('fonts/AvenirLTStd-Medium.otf')  format('opentype'),
+	     url('fonts/AvenirLTStd-Medium.woff') format('woff'), url('fonts/AvenirLTStd-Medium.ttf')  format('truetype'), url('fonts/AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Light';
+  src: url('fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),  url('fonts/AvenirLTStd-Light.otf')  format('opentype'),
+	     url('fonts/AvenirLTStd-Light.woff') format('woff'), url('fonts/AvenirLTStd-Light.ttf')  format('truetype'), url('fonts/AvenirLTStd-Light.svg#AvenirLTStd-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Heavy';
+  src: url('fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),  url('fonts/AvenirLTStd-Heavy.otf')  format('opentype'),
+	     url('fonts/AvenirLTStd-Heavy.woff') format('woff'), url('fonts/AvenirLTStd-Heavy.ttf')  format('truetype'), url('fonts/AvenirLTStd-Heavy.svg#AvenirLTStd-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+/* QUERIES	
+   ===================================================================================================
+*/
+@media only screen and (max-width: 40.063em){ /* 640px */
+
+.logo{
+	height: 8rem;
+}
+	
+#intro #title-nav-wrap{
+	margin-left: 0;
+}
+
+#intro .white-bg.alignleft{
+	display: none;
+}
+
+#intro .white-bg{
+	width: 100%;
+	text-align: center;
+}
+
+a.yoga-link{
+	height: auto;
+	text-align: center;
+	line-height: 4em;
+}
+
+a.yoga-link.pregnancy{
+	line-height: 1.6em;
+	min-height: 67px;
+}
+
+.welcome-txt{
+	margin-top: 0;
+}
+
+.welcome-txt h3{    
+	font-size: 2rem;
+    min-height: auto;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+#intro-nav li{
+	padding: 0;
+	height: auto;
+}
+
+q{
+	font-size: 1.2rem;
+}
+
+ul{
+	margin-left: 0;
+}
+
+
+.footer-right{
+	
+}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

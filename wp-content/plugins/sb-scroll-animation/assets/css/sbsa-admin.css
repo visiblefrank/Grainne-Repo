@@ -1,0 +1,32 @@
+/* Animation admin style */
+/* version 1.0 */
+#sbsa-wrapper h2.title { background:#fff; box-shadow:0 1px 1px rgba(0, 0, 0, 0.04);	border:1px solid #e5e5e5; padding:10px !important; }
+#sbsa-wrapper h2.title a { margin-left:5px; }
+#sbsa-wrapper h2.title img { float: left; margin: 3px 10px 0 0; }
+#sbsa-wrapper h3.hndle { cursor:default; }
+#sbsa-wrapper input.regular-text { width:100%; }
+#sbsa-wrapper tr.sbsa-sample-row { display:none; }
+#sbsa-wrapper .save-changes { width:100%; }
+#sbsa-wrapper .import-btn { width:100%; margin-top:10px; float:left; clear:both; }
+input[type=submit], input[type=button] { -webkit-transition: all 0.3s linear 0s; -moz-transition: all 0.3s linear 0s; -o-transition: all 0.3s linear 0s; transition: all 0.3s linear 0s; vertical-align:inherit !important; }
+#sbsa-wrapper .sb-btn {	background:#34495E;	box-shadow:0 1px 0 rgba(52, 72, 94, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15); font-weight:700; }
+#sbsa-wrapper .sb-btn:hover { opacity:0.9; }
+#sbsa-wrapper a { color:#34495E; text-decoration:underline; font-weight:bold; }
+#sbsa-wrapper a.button { text-decoration:none; }
+#sbsa-wrapper #dashboard-widgets h4 { font-weight: 700; margin:0 0 10px; }
+#faq-help-section .main h3 { padding:8px 0; margin-bottom:0; font-size:20px; }
+#faq-help-section p { margin-top:0; }
+.sbsa-selector-settings thead td:first-child { width:30em; }
+.sbsa-selector-settings thead td.animation-style { width:16em; }
+.sbsa-selector-settings thead td.animation-time, .sbsa-selector-settings thead td.animation-delay { width:15em; }
+.sbsa-selector-settings td.animation-time input, .sbsa-selector-settings td.animation-delay input { width:50px; text-align:center; }
+#sbsa-wrapper ul.available-animation-styles ul { margin-left:20px; }
+#sbsa-wrapper ul.parent > li { padding:20px; width:160px; background:#f1f1f1; margin-bottom:20px; }
+#sbsa-wrapper ul ul { margin-bottom:20px; }
+#sbsa-wrapper ul ul > li { list-style:circle; }
+.plugin-row .plugin-half { width:50%; float:left; }
+.plugin-row img { max-width:100%; }
+#import-export-section textarea { width:100%; resize:vertical; }
+.import-wrapper, .export-wrapper { float:left; width:49.5%; }
+.export-wrapper { float:right; }
+#import-export-section h2 { font-size:20px; }
