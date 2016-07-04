@@ -214,8 +214,11 @@ li{
 	overflow: auto;
 }
 
-#logo h1{
+#logo span{
 	font-family: 'Days One', AvenirLTStd-Light, sans-serif;
+	color: #fff;
+	font-size: 2.1rem;
+	line-height: 1.3em;
 }
 
 #yantra, #title{
@@ -232,6 +235,16 @@ li{
 
 #title{
 	width: 285px;
+}
+
+.white-panel{
+	background: rgba(255,255,255,0.75);
+	height: 291px;
+}
+
+.white-panel p{
+	color: #000;
+	padding: 2rem;
 }
 
 
@@ -263,7 +276,7 @@ h1.home-title{
 }
 
 .contact-head, #tag h3{
-	padding: .5em;
+	padding: 0 1em;
     text-align: right;
     line-height: 1.5em;
 }
@@ -272,17 +285,39 @@ h1.home-title{
 	margin-bottom: 0;
 }
 
-.contact-head span{
-	font-family: AvenirLTStd-Heavy, open-sans, sans-serif;
-    padding: .3rem;
-    border: 1px solid rgba(255,255,255,0.1);
+.contact-head span.contact-icon-wrap{
+    font-family: AvenirLTStd-Heavy, open-sans, sans-serif;
+    padding: 1rem .5rem;
     display: inline-block;
     line-height: .75em;
-    margin-right: .5rem;
-    padding-top: .5rem;
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    text-align: center;
+    border-top: 0;
+    border-bottom: 0;
+    margin-left: .5em;
 }
 
+.contact-head span.contact-icon-wrap.email{
+	border-left: 1px solid rgba(0,0,0,0.1);
+	padding-left: .8em;
+}
+
+.contact-head  span.contact-icon{
+	border: 1px solid rgba(255,255,255,0.25);
+    width: 1.5rem;
+    padding: .3rem;
+    border-radius: 50%;
+    display: inline-block;
+	}
+	
+a.booking-btn{
+	font-family: 'days one', sans-serif;
+    float: right;
+    margin-right: 1em;
+    /* margin-top: 1em; */
+    padding: 1em;
+    box-shadow: 2px 2px rgba(245, 62, 103, 0.9);
+	
+}
 
 /* =========== hero =========== */
 
@@ -368,7 +403,7 @@ h1.home-title{
     margin: 1rem 0 1rem .5rem;
 }
 
-.contact-home{
+.contact-]{
 	text-align: right;
 	padding: .5rem;
 	 margin-top: 2.1rem;
@@ -441,8 +476,10 @@ h1.home-title{
 .bucket h2{
 	color: #fff;
 	font-size: 1.3rem;
-	padding-left: 1rem;
-	font-family: AvenirLTStd-Heavy, helvetica, arial, sans-serif;
+/* 	padding-left: 1rem; */
+	font-family: AvenirLTStd-Heavy, helvetica, arial, sans-serif;    
+	border-bottom: 1px dashed rgba(255,255,255,0.4);
+    margin: 1rem;
 }
 
 .bucket-bg{
@@ -489,7 +526,7 @@ h1.home-title{
 	position: relative;
 	padding: 5rem 5rem 5rem 24rem;
 	z-index: 1;
-	border: 5px solid rgba(0,0,0,0.3);
+	border: 3px solid #fffbfb;
 	background: rgba(255,255,255,0.9);
 	border-radius: 2rem;
 	
@@ -796,12 +833,12 @@ ul{
 	}
 	
 	#yantra{
-		width: 45%;
+		width: 40%;
 		margin-left: 0;
 	}
 	
 	#title{
-		width: 55%;
+		width: 60%;
 	}
 	
 }

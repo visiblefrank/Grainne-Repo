@@ -10,12 +10,19 @@ Template Name: Home
 	
 <!-- 	<div class="tri-drk-red"><h1>ijysdxdusdyg sdjy kj  ulcljsbjxckxjc xd <br> kdzh dkjysdbiuydiubydbku</h1></div> -->
 	<section id="hero" class="row section collapse">
-		
+<!--
+		<div class="column large-3 medium-12">
+			<div class="row flower-orange-glass contact-head">Test</div>
+			<div class="row  white-panel">
+			<p>Test white panel</p></div>
+			
+		</div>
+-->
 		<div class="column medium-12 large-9 large-offset-3">
 			<div class="row">
 				<div class="flower-orange-glass contact-head">
-					<p><span> T </span><a href="tel:00353868518321">086 851 8321</a>
-					<span> E </span><a href="mailto:grainne@topp-yoga.ie">grainne@grainnemclaughlin.ie</a></p>
+					<p><span class="tel-num"><span class="contact-icon-wrap"> <span class="contact-icon">t</span> </span><a href="tel:00353868518321">086 851 8321</a></span>
+					<span class="contact-icon-wrap email"> <span class="contact-icon">e</span> </span><a href="mailto:grainne@topp-yoga.ie">grainne@grainnemclaughlin.ie</a></p>
 				</div>
 			</div>
 			<div class="row collapse lt-green-glass">
